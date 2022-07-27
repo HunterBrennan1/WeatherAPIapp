@@ -3,6 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -33,15 +34,20 @@ h2 {
 
 }
 
+p {
+  font-size: 30px;
+}
+
 .search-section {
   background-color: beige;
   height: 100vh;
   width: 25%;
+  display: inline-block;
 }
 
 #search-text {
   width: 90%;
-  height: 40px;
+  height: 50px;
   font-size: 30px;
   margin: 10px;
   border-radius: 15px;
@@ -65,4 +71,40 @@ h2 {
   width: 90%;
   background: gray;
   margin-bottom: 50px;
+}
+
+.city-btn {
+  width: 90%;
+  height: 40px;
+  font-size: 25px;
+  background-color: #495057;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  margin-top: 25px;
+  color: white;
+}
+
+.city-stats {
+
+  display: inline-block;
+  vertical-align: top;
+  height: 40vh;
+  width: 73%;
+  border-style: solid;
+  margin-left: 20px;
+}
+
+.city {
+  display: block;
+  position: relative;
+  font-size: 30px;
+}
+
+.stats {
+  position: relative;
+  top: 0px;
+  font-size: 25px;
+  margin-top: 40px;
+  font-weight: bold;
 }
