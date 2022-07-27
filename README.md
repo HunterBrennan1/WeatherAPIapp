@@ -19,6 +19,6 @@ This application is built with
 
 Screenshots
 
-C:\Users\hunte\Desktop\VsCode\WeatherAPIapp\assets\js\Capture.JPG
+<img src="C:\Users\hunte\Desktop\VsCode\WeatherAPIapp\assets\js\Capture.JPG">
 
 
