@@ -1,19 +1,3 @@
-// document.getElementById('searchBtn').addEventListener('click', event => {
-
-//   let cityName = document.getElementById('cityName').value
-//   console.log(cityName)
-
-// axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=b029961068cebd7f81e5f282224e139b`)
-//     .then(res => {
-//       console.log(res.data)
-//       let lat = res.data.city.name.lat
-//       let lon = res.data.city.name.lon
-//       axios.get(`https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&&appid=b029961068cebd7f81e5f282224e139b`)
-//         .then(resp => {
-//           console.log(resp.data)
-//         })
-//     })
-// })
 
 var cityFormEL = document.getElementById('city-form');
 var cityNameEL = document.getElementById('city-name');
@@ -63,5 +47,44 @@ function (getWeather (lat, lon, cityName){
 })
 
 .then(function (data) {
+  console.log(data);
+  var current = {
+    currentCity: cityName,
+    currentDate: data.current.dt,
+    currentIcon: data.current.weather[0].icon,
+    curretTemp: data.current.temp,
+    currentWind: data.current.wind_speed,
+    currentHumidity: data.current.humidity,
+    currentUvi: data.current.uvi,
 
+    dOneDate: data.daily[1].dt,
+    dOneIcon: data.daily[1].weather[0].icon,
+    dOneTemp: data.daily[1].temp.day,
+    dOneWind: data.daily[1].wind_speed,
+    dOneHum: data.daily[1].humidity,
+
+    dTwoDate: data.daily[2].dt,
+    dTwoIcon: data.daily[2].weather[0].icon,
+    dTwoTemp: data.daily[2].temp.day,
+    dTwoWind: data.daily[2].wind_speed,
+    dTwoHum: data.daily[2].humidity,
+
+    dThreeDate: data.daily[3].dt,
+    dThreeIcon: data.daily[3].weather[0].icon,
+    dThreeTemp: data.daily[3].temp.day,
+    dThreeWind: data.daily[3].wind_speed,
+    dThreeHum: data.daily[3].humidity,
+
+    dFourDate: data.daily[4].dt,
+    dFourIcon: data.daily[4].weather[0].icon,
+    dFourTemp: data.daily[4].temp.day,
+    dFourWind: data.daily[4].wind_speed,
+    dFourHum: data.daily[4].humidity,
+
+    dFiveDate: data.daily[5].dt,
+    dFiveIcon: data.daily[5].weather[0].icon,
+    dFiveTemp: data.daily[5].temp.day,
+    dFiveWind: data.daily[5].wind_speed,
+    dFiveHum: data.daily[5].humidity,
+  };
 })
