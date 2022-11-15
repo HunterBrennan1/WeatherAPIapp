@@ -1,2 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:url(../img/marco-amatulli-WGpC98Tj_y0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  object-fit:scale-down;
+  height:100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin-left:10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 20px 70px;
+  color:#fefefe;
+  display: flex;
+  flex-direction: column;
+}
+
+#searchBtn {
+  background-color: #3c3c44;
+  margin-right:15px;
+  border:none;
+}
+
+input {
+  height:35px;
+  padding:10px;
+  font-weight: 400;
+  color:#000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search-container {
+  
+}
+
+.date-container .time {
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.date-container #am-pm{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.date-container .date{
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.current-info {
+  display: flex;
+  flex-direction: column;
+  background: rgba(24,24,27,0.6);
+  padding:20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border:1px solid #fefefe;
+}
+
+.weather-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 100;
+}
+
+.fiveday-forcast{
+  background: rgba(24,24,27,0.8);
+  padding:25px;
+  position:fixed;
+  bottom:0;
+  display: flex;
+  color:#fefefe;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-forcast{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  border: 1px solid #fefefe;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.weather-forcast .day{
+ padding:5px 15px;
+ background: #3c3c44;
+ border-radius: 50px;
+ text-align: center; 
+}
+
+
+@media only screen and (max-width:730px){
+  .fiveday-forcast{
+    justify-content: start;
+    align-items: none;
+    overflow-y: scroll;
+  }
+}

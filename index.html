@@ -18,18 +18,98 @@
 
   <body>
     <div class="container">
-      <div class="row">
-        <h1>Weather For You</h1>
+      <div class="search-container">
+        <div class="row">
+          <h1>Weather For You</h1>
+        </div>
+
+        <div class="search-area row">
+          <div class="input-field col">
+            <input value="Newark" id="cityName" type="text" class="validate" />
+            <label value="Newark" id="cityName" type="text" class="validate">
+              City Name
+            </label>
+          </div>
+          <a id="searchBtn" class="btn btn-primary">Search!</a>
+        </div>
+      </div>
+      <div class="date-container">
+        <h2 class="time">1:20<span id="am-pm">PM</span></h2>
+        <h3 class="date">Tuesday, Novemeber 15th</h3>
       </div>
 
-      <div class="row">
-        <div class="input-field col">
-          <input value="Newark" id="cityName" type="text" class="validate" />
-          <label value="Newark" id="cityName" type="text" class="validate">
-            City Name
-          </label>
+      <div class="current-info">
+        <div class="others" id="current-weather-items">
+          <div class="weather-item">
+            <div>Humidity</div>
+            <div>95.2%</div>
+          </div>
+          <div class="weather-item">
+            <div>Pressure</div>
+            <div>95.2%</div>
+          </div>
+          <div class="weather-item">
+            <div>Wind Speed</div>
+            <div>95.2%</div>
+          </div>
         </div>
-        <a id="searchBtn" class="btn btn-primary">Search!</a>
+      </div>
+    </div>
+    <div class="fiveday-forcast">
+      <div class="weather-forcast" id="current-temp">
+        <div class="day">Monday</div>
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+
+        <div class="temp">Night - 45 F</div>
+        <div class="temp">Day - 65 F</div>
+      </div>
+      <div class="weather-forcast" id="current-temp">
+        <div class="day">Tue</div>
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+
+        <div class="temp">Night - 45 F</div>
+        <div class="temp">Day - 65 F</div>
+      </div>
+      <div class="weather-forcast" id="current-temp">
+        <div class="day">Wed</div>
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+
+        <div class="temp">Night - 45 F</div>
+        <div class="temp">Day - 65 F</div>
+      </div>
+      <div class="weather-forcast" id="current-temp">
+        <div class="day">Thurs</div>
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+
+        <div class="temp">Night - 45 F</div>
+        <div class="temp">Day - 65 F</div>
+      </div>
+      <div class="weather-forcast" id="current-temp">
+        <div class="day">Fri</div>
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+
+        <div class="temp">Night - 45 F</div>
+        <div class="temp">Day - 65 F</div>
       </div>
     </div>
 
