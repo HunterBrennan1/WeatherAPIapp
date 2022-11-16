@@ -18,6 +18,7 @@ body{
 
 h1 {
   margin-left:10px;
+  margin-bottom: 30px !important;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -32,6 +33,7 @@ h1 {
   background-color: #3c3c44;
   margin-right:15px;
   border:none;
+  height:35px;
 }
 
 input {
@@ -40,10 +42,11 @@ input {
   font-weight: 400;
   color:#000;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px !important;
 }
 
 .search-container {
-  
+  margin-bottom:20px;
 }
 
 .date-container .time {
@@ -69,6 +72,7 @@ input {
   border-radius: 10px;
   margin: 10px 0;
   border:1px solid #fefefe;
+  max-width:500px;
 }
 
 .weather-item{
@@ -88,6 +92,7 @@ input {
   width:100%;
   align-items: center;
   justify-content: center;
+  gap:10px;
 }
 
 .weather-forcast{
@@ -114,5 +119,6 @@ input {
     justify-content: start;
     align-items: none;
     overflow-y: scroll;
+    gap:0px;
   }
 }
