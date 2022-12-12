@@ -1,24 +1,42 @@
-# WeatherAPIapp
-Weather API homework for week 6
+# Weather-API-Application
 
-This application lets users search a city and displays the 5 day forcast as well as temp, wind, humidity, and the UV index.
+### License
+  ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
+***
 
-Users will also have the option to look up previously searched cities via the stored information on the left of the application.
------------------------------------------------------------------------------------------------------------------------------------------------
+## Description
+This application allows users to easily find local weather for targeted locations around the world. When the user searches for a location they are presented with a 5 day forcast for that area with information including Temperature, UV index, Humidity, and the wind speed.
+***
 
-This application is built with 
--Javascript
--CSS
--HTML
--BootStrap
--jquery
--WeatherAPI
--moment
+## Table of Contents
+1. [Technologies Used](#technologies)
+2. [Screenshots](#screenshots)
+3. [Links](#links)
+***
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+<a name="technologies"></a>
+## Technologies Used
+  
+* HTML
 
-Screenshots
+* Bootstrap (CSS)
 
-<img src="C:\Users\hunte\Desktop\VsCode\WeatherAPIapp\assets\js\Capture.JPG">
+* JavaScript
+
+* OpenWeatherAPI
+
+***
+
+<a name="screenshots"></a>
+## Screenshots
+
+![Main-Page](./assets/img/weatherapi.JPG)
+***
+
+<a name="links"></a>
+## Links
+
+[Repo-Link](https://github.com/HunterBrennan1/WeatherAPIapp)
+***
 
 

@@ -1,15 +1,4 @@
 
-// var cityFormEL = document.getElementById('city-form');
-// var cityNameEL = document.getElementById('city-name');
-// var cityHeaderEL = document.getElementById('city-header');
-// var iconHeaderEL = document.getElementById('icon-header');
-// var tempHeaderEL = document.getElementById('temp-header');
-// var windHeaderEL = document.getElementById('wind-header');
-// var humidHeaderEL = document.getElementById('humid-header');
-// var uviHeaderEL = document.getElementById('uvi-header');
-// var cityListEL = document.getElementById('city-list');
-const apikey = ''
-
 const temperEl = document.getElementById('temp');
 const windEl = document.getElementById('wind');
 const humidityEl = document.getElementById('humidity');
