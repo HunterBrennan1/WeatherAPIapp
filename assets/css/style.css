@@ -52,6 +52,7 @@ input {
 .date-container .time {
   font-size: 70px;
   font-weight: 100;
+  color:#000;
 }
 
 .date-container #am-pm{
@@ -62,6 +63,7 @@ input {
 .date-container .date{
   font-size: 30px;
   font-weight: 100;
+  color: #000;
 }
 
 .current-info {
